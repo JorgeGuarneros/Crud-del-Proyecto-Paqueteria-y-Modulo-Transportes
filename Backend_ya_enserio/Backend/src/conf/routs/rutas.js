@@ -37,7 +37,7 @@ routes.get('/db/:id',(req,res)=>{
     })
 });
 
-//----Metodo Post------ Agregar
+//----Metodo Post------ Agregar -----
 
 routes.post('/db',(req,res)=>{
     const{transporte, placas} = req.body
